@@ -1,0 +1,5 @@
+don' work properly ,NEXTEPISODE btn
+Not implemented,backend or saveresult;
+design css or icons
+when lunch app first time ,need request mic permission.
+don't start first quiz,Cannot show result display correctly

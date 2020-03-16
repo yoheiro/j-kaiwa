@@ -135,7 +135,7 @@ function MkQuizlist(e){
   //////////////
   //CheckANSWER
   var ANSWER;
-  var UserAnswer=[];
+  var UserAnswer=[" "];
   function checkAnswer(e){
   STuA[e]=UserAnswer[0]
     console.log(UserAnswer[0]);

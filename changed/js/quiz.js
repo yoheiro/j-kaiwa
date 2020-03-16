@@ -75,7 +75,7 @@ function skip(ee,e){
   
   var t=e+1;
   var tt=ee+1;
-  alert("showresult,skip this quiz?");}
+  alert("showresult,skip this quiz?");
   currentQ[e][6]=false;
   if(t<currentQ.length){
   console.log(currentQ);
@@ -85,6 +85,8 @@ function skip(ee,e){
   $('#control').html('<ons-button onclick="skip('+tt+','+t+')">skip</ons-button><ons-button onclick="next('+tt+','+t+')">next</ons-button>');
   }else{
   
+    SHOWRESULT(e);
+};
 };
   
 
